@@ -5,6 +5,7 @@ gem "will_paginate", "~> 2.3.0"
 gem "acts-as-taggable-on", "~> 2.0.0" 
 gem "RedCloth", :require => "redcloth"
 gem 'i18n', "~> 0.4.0"
+gem 'fcgi'
 
 database = begin
   File.read(File.dirname(__FILE__) + '/config/database.yml').scan(/production.+?adapter\W+(\w+)/im).join

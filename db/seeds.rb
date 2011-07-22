@@ -67,7 +67,7 @@ module Retrospectiva
 
     def create_admin
       puts 'Creating default admin user'
-      User.new( :name => 'Administrator', :plain_password => 'password', :plain_password_confirmation => 'password' ) do |user|
+      User.new( :name => 'Administrator', :plain_password => 'FLX_DB_PASS', :plain_password_confirmation => 'FLX_DB_PASS' ) do |user|
         user.username = 'admin'        
         user.email = 'please@set.this'
         user.admin = true

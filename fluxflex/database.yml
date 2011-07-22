@@ -1,0 +1,7 @@
+production:
+  adapter: mysql
+  encoding: utf8
+  host: FLX_DB_HOST
+  database: FLX_DB_NAME
+  username: FLX_DB_USER
+  password: FLX_DB_PASS
